@@ -4,7 +4,7 @@ const app = express();
 // Express work is to listen & serve the route
 // app.get("/", (req, res) => {
 //   res.send("server is ready");
-// });
+// })
 
 // Serving 5 jokes -->
 app.get("/api/jokes", (req, res) => {
